@@ -1,0 +1,50 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code-specific ignores
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+
+# Dataset or large files
+datasets/
+data/
+*.csv
+*.tsv
+*.json
+*.db
+*.sqlite
+
+# Ignore compiled Jupyter Notebook outputs
+*.nbconvert/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
